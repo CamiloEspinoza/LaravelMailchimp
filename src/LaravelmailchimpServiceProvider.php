@@ -17,7 +17,7 @@ class LaravelmailchimpServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravelmailchimp')
-            ->hasConfigFile()            
+            ->hasConfigFile()
             ->hasCommand(LaravelmailchimpCommand::class);
     }
 }
