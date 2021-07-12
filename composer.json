@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "laravelmailchimp/laravelmailchimp",
+    "description": "Integración de Mailchimp para Laravel 8.x",
     "keywords": [
-        ":vendor_name",
+        "LaravelMailchimp",
         "laravel",
-        "package_slug"
+        "laravelmailchimp"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/laravelmailchimp/laravelmailchimp",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "La Vega Delivery",
+            "email": "camilo@lavegadelivery.cl",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Laravelmailchimp\\Laravelmailchimp\\": "src",
+            "Laravelmailchimp\\Laravelmailchimp\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Laravelmailchimp\\Laravelmailchimp\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Laravelmailchimp\\Laravelmailchimp\\LaravelmailchimpServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "Laravelmailchimp": "Laravelmailchimp\\Laravelmailchimp\\LaravelmailchimpFacade"
             }
         }
     },
