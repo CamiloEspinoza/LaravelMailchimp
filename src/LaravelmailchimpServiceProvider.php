@@ -2,9 +2,9 @@
 
 namespace Laravelmailchimp\Laravelmailchimp;
 
+use Laravelmailchimp\Laravelmailchimp\Commands\LaravelmailchimpCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Laravelmailchimp\Laravelmailchimp\Commands\LaravelmailchimpCommand;
 
 class LaravelmailchimpServiceProvider extends PackageServiceProvider
 {
