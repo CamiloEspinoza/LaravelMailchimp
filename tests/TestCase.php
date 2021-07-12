@@ -3,8 +3,8 @@
 namespace Laravelmailchimp\Laravelmailchimp\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Laravelmailchimp\Laravelmailchimp\LaravelmailchimpServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
